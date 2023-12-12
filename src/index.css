@@ -1,7 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
 
-.active {
-  color: #854eee;
+/* .active {
+  color: #bcd5cc;
+  text-decoration: underline;
+} */
+
+.playfairfonts {
+  font-family: "Playfair Display", serif;
+}
+
+.boxStyles {
+  z-index: 9999;
+
+  clip-path: polygon(0 0, 102% 0, 100% 100%, 50% calc(100% - 85px), 0 100%);
+}
+
+.contactMe {
+  clip-path: polygon(
+    0 0,
+    calc(0% - 4.14px - 50px) 0,
+    50% calc(100px + 4.14px),
+    calc(100% + 4.14px + 50px) 0,
+    100% 0,
+    100% 100%,
+    0 100%
+  );
+  margin-top: -40px;
+}
+
+.displayOn {
+  bottom: -300px;
+}
+
+.cardMain:hover .displayOn {
+  top: 0;
 }

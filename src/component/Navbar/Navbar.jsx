@@ -3,28 +3,44 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const NavLinks = (
     <>
-      <NavLink to="/" className="font-bold text-lg ">
+      <NavLink to="/" className="font-bold text-lg text-textColor">
         Home
       </NavLink>
 
-      <NavLink to="skills" className="font-bold text-lg ">
+      <NavLink to="skills" className="font-bold text-lg text-textColor">
         Skills
       </NavLink>
 
-      <NavLink to="projects" className="font-bold text-lg ">
+      <NavLink to="projects" className="font-bold text-lg text-textColor">
         Projects
       </NavLink>
 
-      <NavLink className="font-bold text-lg ">Contact Me</NavLink>
+      <NavLink to="contactme" className="font-bold text-lg text-textColor">
+        Contact Me
+      </NavLink>
 
-      <NavLink className="font-bold text-lg ">About</NavLink>
+      {/* <NavLink className="font-bold text-lg text-textColor">About</NavLink> */}
     </>
   );
 
   return (
-    <div className="px-5  justify-between navbar drop-shadow-lg bg-primaryColor">
+    <div className="px-5 z-50 justify-between navbar drop-shadow-lg bg-primaryColor relative">
       <div className=" ">
-        <div className="dropdown">
+        <a className=" h-20 w-20 ">
+          <img
+            className="h-full w-full"
+            src="/src/assets/_-removebg-preview.png"
+            alt=""
+          />
+        </a>
+      </div>
+      <div>
+        <div className="hidden lg:flex">
+          <ul className="menu menu-horizontal gap-3 px-1 items-center">
+            {NavLinks}
+          </ul>
+        </div>
+        <div className=" dropdown  dropdown-end ">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,23 +59,11 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm  bg-primaryColor drop-shadow-2xl dropdown-content mt-7 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             {NavLinks}
           </ul>
         </div>
-        <a className=" h-20 w-20 ">
-          <img
-            className="h-full w-full"
-            src="/src/assets/_-removebg-preview.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <div className="hidden lg:flex">
-        <ul className="menu menu-horizontal gap-3 px-1 items-center">
-          {NavLinks}
-        </ul>
       </div>
     </div>
   );

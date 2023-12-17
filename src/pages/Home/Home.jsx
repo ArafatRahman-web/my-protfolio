@@ -1,3 +1,4 @@
+import ScrollToTop from "../../component/Share/ScrolltoTop/ScrollToTop";
 import ContactMe from "../ContactMe/ContactMe";
 import Projects from "../Projeact/Projects";
 import Skills from "../Skills/Skills";
@@ -12,6 +13,7 @@ const Home = () => {
       <Projects></Projects>
       <Education></Education>
       <ContactMe></ContactMe>
+      <ScrollToTop></ScrollToTop>
     </div>
   );
 };

@@ -8,7 +8,7 @@ import foodImg from "../../assets/project/home/food.png";
 
 const Projects = () => {
   return (
-    <div className="md:px-20 px-5 mb-10">
+    <div id="projects" className="md:px-20 px-5 mb-10">
       <div className="my-8">
         <SectionTitle title="PROJECTS"></SectionTitle>
         <Divider></Divider>

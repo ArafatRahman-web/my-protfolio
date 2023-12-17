@@ -1,23 +1,24 @@
-import { NavLink } from "react-router-dom";
+import logo from "../../assets/_-removebg-preview.png";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const NavLinks = (
     <>
-      <NavLink to="/" className="font-bold text-lg text-textColor">
+      <HashLink to="/" className="font-bold text-lg text-textColor">
         Home
-      </NavLink>
+      </HashLink>
 
-      <NavLink to="skills" className="font-bold text-lg text-textColor">
+      <HashLink to="#skills" className="font-bold text-lg text-textColor">
         Skills
-      </NavLink>
+      </HashLink>
 
-      <NavLink to="projects" className="font-bold text-lg text-textColor">
+      <HashLink to="#projects" className="font-bold text-lg text-textColor">
         Projects
-      </NavLink>
+      </HashLink>
 
-      <NavLink to="contactme" className="font-bold text-lg text-textColor">
+      <HashLink to="#contactme" className="font-bold text-lg text-textColor">
         Contact Me
-      </NavLink>
+      </HashLink>
 
       {/* <NavLink className="font-bold text-lg text-textColor">About</NavLink> */}
     </>
@@ -27,11 +28,7 @@ const Navbar = () => {
     <div className="px-5 z-50 justify-between navbar drop-shadow-lg bg-primaryColor relative">
       <div className=" ">
         <a className=" h-20 w-20 ">
-          <img
-            className="h-full w-full"
-            src="/src/assets/_-removebg-preview.png"
-            alt=""
-          />
+          <img className="h-full w-full" src={logo} alt="" />
         </a>
       </div>
       <div>

@@ -3,7 +3,7 @@ import SectionTitle from "../../component/Share/SectionTitle";
 
 const ContactMe = () => {
   return (
-    <div id="#contactme">
+    <div id="contactme">
       <SectionTitle title="CONTACT ME"></SectionTitle>
       <Divider></Divider>
       <div className="contactMe  bg-[#000]  ">

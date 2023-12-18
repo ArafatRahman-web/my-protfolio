@@ -8,6 +8,10 @@
   text-decoration: underline;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .playfairfonts {
   font-family: "Playfair Display", serif;
 }

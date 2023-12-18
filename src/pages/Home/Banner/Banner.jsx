@@ -1,6 +1,6 @@
 // import coverImg from "../../../assets/cover.png";
 import profileImg from "../../../assets/dp-removebg-preview.png";
-import resumePdf from "../../../../public/abedin_wahid.pdf";
+import resumePdf from "../../../../public/abedinwahid's_cv.pdf";
 import htmlImg from "../../../assets/skill/html.png";
 import cssImg from "../../../assets/skill/css.png";
 import jsImg from "../../../assets/skill/js.png";
@@ -15,15 +15,15 @@ import FloatingIcon from "../../../component/Share/FloatingIcon/FloatingIcon";
 const Banner = () => {
   return (
     <div
-      className="bg-center bg-covers bg-[#000] bg-no-repeat border-none relative -z-50"
+      className="bg-center bg-covers  bg-no-repeat border-none relative "
       // style={{
       //   backgroundImage: `url(${coverImg})`,
       //   backgroundSize: "100%",
       // }}
     >
       {/* bg-[#000000b2] */}
-      <div className="bg-[#0000008a] text-center text-neutral-content -z-10 ">
-        <div className="z-40 flex md:p-16 p-5 gap-5 items-center sm:flex-row flex-col justify-between">
+      <div className="bg-[#0000008a] text-center text-neutral-content ">
+        <div className="z-50 flex md:p-16 p-5 gap-5 items-center sm:flex-row flex-col justify-between">
           <div className="md:w-1/2 w-full flex items-center sm:order-1 order-2">
             <div>
               <h1
@@ -60,8 +60,8 @@ const Banner = () => {
               />
             </div>
           </div>
-        </div>{" "}
-        <div className="absolute flex flex-col justify-evenly w-full h-full top-10 -z-10">
+        </div>
+        <div className="absolute bg-[#000] flex flex-col justify-evenly w-full h-full top-0 -z-10">
           {/* 1st row */}
           <div className="flex justify-evenly gap-20">
             <div>

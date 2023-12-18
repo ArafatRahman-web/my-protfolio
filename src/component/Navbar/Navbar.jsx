@@ -4,19 +4,31 @@ import { HashLink } from "react-router-hash-link";
 const Navbar = () => {
   const NavLinks = (
     <>
-      <HashLink to="/" className="font-bold text-lg text-textColor">
+      <HashLink
+        to="/"
+        className="font-bold text-lg text-textColor hover:underline hover:text-BtnColor"
+      >
         Home
       </HashLink>
 
-      <HashLink to="#skills" className="font-bold text-lg text-textColor">
+      <HashLink
+        to="#skills"
+        className="font-bold text-lg text-textColor hover:underline hover:text-BtnColor"
+      >
         Skills
       </HashLink>
 
-      <HashLink to="#projects" className="font-bold text-lg text-textColor">
+      <HashLink
+        to="#projects"
+        className="font-bold text-lg text-textColor hover:underline hover:text-BtnColor"
+      >
         Projects
       </HashLink>
 
-      <HashLink to="#contactme" className="font-bold text-lg text-textColor">
+      <HashLink
+        to="#contactme"
+        className="font-bold text-lg text-textColor hover:underline hover:text-BtnColor"
+      >
         Contact Me
       </HashLink>
 

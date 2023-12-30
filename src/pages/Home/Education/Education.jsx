@@ -23,7 +23,7 @@ const Education = () => {
                 borderRadius: "50%",
                 padding: "10px",
 
-                backgroundColor: "#BCD5CC",
+                backgroundColor: "#000",
               }}
             >
               <svg
@@ -101,11 +101,15 @@ const Education = () => {
             </div>
           </div>
           <div className="timeline-start md:text-end ">
-            <time className="font-mono text-2xl italic ">2019 - 2022</time>
-            <div className="mb-2 md:text-3xl text-xl font-black">
+            <time className="font-mono text-2xl italic  text-textColor">
+              2019 - 2022
+            </time>
+            <div className="mb-2 md:text-3xl text-xl font-black text-textColor">
               Govt. Gournadi College & University
             </div>
-            <p className="md:text-xl text-base ">Course Name: BA (Degree)</p>
+            <p className="md:text-xl text-base  text-textColor">
+              Course Name: BA (Degree)
+            </p>
           </div>
           <hr />
         </li>
@@ -117,7 +121,7 @@ const Education = () => {
                 borderRadius: "50%",
                 padding: "10px",
 
-                backgroundColor: "#BCD5CC",
+                backgroundColor: "#000",
               }}
             >
               <svg
@@ -195,11 +199,15 @@ const Education = () => {
             </div>
           </div>
           <div className="timeline-end ">
-            <time className="font-mono text-2xl italic ">2014 - 2016</time>
-            <div className="mb-2 md:text-3xl text-xl font-black">
+            <time className="font-mono text-2xl italic  text-textColor">
+              2014 - 2016
+            </time>
+            <div className="mb-2 md:text-3xl text-xl font-black text-textColor">
               Govt. Gournadi College & University
             </div>
-            <p className="md:text-xl text-base ">Course Name: HSC (Science)</p>
+            <p className="md:text-xl text-base  text-textColor">
+              Course Name: HSC (Science)
+            </p>
           </div>
           <hr />
         </li>
@@ -211,7 +219,7 @@ const Education = () => {
                 borderRadius: "50%",
                 padding: "10px",
 
-                backgroundColor: "#BCD5CC",
+                backgroundColor: "#000",
               }}
             >
               <svg
@@ -289,11 +297,15 @@ const Education = () => {
             </div>
           </div>
           <div className="timeline-start md:text-end mb-10">
-            <time className="font-mono text-2xl italic ">2012 - 2014</time>
-            <div className="mb-2 md:text-3xl text-xl font-black">
+            <time className="font-mono text-2xl italic  text-textColor">
+              2012 - 2014
+            </time>
+            <div className="mb-2 md:text-3xl text-xl font-black text-textColor">
               Govt. Gournadi Pailot High School
             </div>
-            <p className="md:text-xl text-base ">Course Name: SSC (Science)</p>
+            <p className="md:text-xl text-base  text-textColor">
+              Course Name: SSC (Science)
+            </p>
           </div>
         </li>
       </ul>

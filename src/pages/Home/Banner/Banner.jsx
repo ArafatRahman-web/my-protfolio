@@ -1,5 +1,4 @@
-// import coverImg from "../../../assets/cover.png";
-import profileImg from "../../../assets/dp-removebg-preview.png";
+import profileImg from "../../../assets/dp.png";
 import resumePdf from "../../../../public/abedinwahid's_cv.pdf";
 import htmlImg from "../../../assets/skill/html.png";
 import cssImg from "../../../assets/skill/css.png";
@@ -57,16 +56,20 @@ const Banner = () => {
             data-aos-duration="2000"
             className="md:w-1/2 w-full flex justify-center sm:order-2 order-1"
           >
-            <div className="w-1/2">
+            <div className="w-3/4">
               <img
-                style={{ borderRadius: " 0% 0% 48% 52% / 25% 30% 25% 24%" }}
+                style={{
+                  filter: "drop-shadow(rgb(255, 250, 250) -1px 0px 5px)",
+                  borderRadius: "65% 0% 37% 94% / 82% 21% 27% 24%",
+                }}
+                // style={{ borderRadius: " 0% 0% 48% 52% / 25% 30% 25% 24%" }}
                 src={profileImg}
                 alt=""
               />
             </div>
           </div>
         </div>
-        <div className="absolute bg-[#000] flex flex-col justify-evenly w-full h-full top-0 -z-10">
+        <div className="absolute  flex flex-col justify-evenly w-full h-full top-0 -z-10">
           {/* 1st row */}
           <div className="flex justify-evenly gap-20">
             <div>

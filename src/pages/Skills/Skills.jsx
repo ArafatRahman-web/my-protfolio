@@ -14,9 +14,9 @@ import express from "../../assets/skill/express.png";
 const Skills = () => {
   return (
     <div id="skills" className=" relative -top-1 ">
-      <div className="boxStyles  bg-[#000]  h-[100px]"></div>
-      <SectionTitle title="SKILLS" styles="-top-12"></SectionTitle>
-      <Divider styles="relative -top-10"></Divider>
+      <div className="boxStyles   h-[100px]"></div>
+      <SectionTitle title="SKILLS" styles=""></SectionTitle>
+      <Divider styles="relative  -top-10"></Divider>
       <Marquee>
         <div className="flex gap-14 items-center">
           <div>

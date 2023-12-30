@@ -13,14 +13,14 @@ AOS.init();
 
 const Projects = () => {
   return (
-    <div id="projects" className="md:px-20 px-5 mb-10">
+    <div id="projects" className=" mb-10">
       <div className="my-8">
         <SectionTitle title="PROJECTS"></SectionTitle>
         <Divider></Divider>
       </div>
       <div
         data-aos="fade-up"
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+        className="grid md:px-20 px-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
       >
         <ProjectCard
           // htmlFor="my_modal_6"

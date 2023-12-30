@@ -3,7 +3,7 @@ const SectionTitle = ({ title, styles }) => {
     <h2
       className={`${
         styles ? styles : ""
-      } text-5xl font-extrabold text-center relative`}
+      } md:text-5xl text-xl   font-extrabold text-center relative`}
     >
       {title}
     </h2>

@@ -7,8 +7,8 @@ const ContactMe = () => {
       <SectionTitle title="CONTACT ME"></SectionTitle>
       <Divider></Divider>
       <div className="contactMe  bg-[#000]  ">
-        <div className="pt-40 pb-10 ">
-          <div className="  mx-auto  w-3/4 rounded-xl shadow-2xl bg-[#5055575e]">
+        <div className="pt-32 pb-10 px-5">
+          <div className="  mx-auto  md:w-3/4 w-full rounded-xl shadow-2xl bg-[#5055575e]">
             <h2></h2>
             <form className="card-body">
               <div className="form-control">

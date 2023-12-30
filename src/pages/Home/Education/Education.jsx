@@ -8,7 +8,7 @@ const Education = () => {
         <SectionTitle title="EDUCATIONS"></SectionTitle>
         <Divider></Divider>
       </div>
-      <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+      <ul className="timeline px-5 timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
             <div
@@ -95,16 +95,16 @@ const Education = () => {
           </div>
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono text-2xl italic ">2019 - 2022</time>
-            <div className="mb-2s text-3xl font-black">
+            <div className="mb-2 md:text-3xl text-xl font-black">
               Govt. Gournadi College & University
             </div>
-            <p className="text-xl ">Course Name: BA (Degree)</p>
+            <p className="md:text-xl text-base ">Course Name: BA (Degree)</p>
           </div>
           <hr />
         </li>
         <li>
           <hr />
-          <div className="timeline-middle">
+          <div className="timeline-middle ">
             <div
               style={{
                 borderRadius: "50%",
@@ -187,12 +187,12 @@ const Education = () => {
               </svg>
             </div>
           </div>
-          <div className="timeline-end mb-10">
+          <div className="timeline-end ">
             <time className="font-mono text-2xl italic ">2014 - 2016</time>
-            <div className="mb-2s text-3xl font-black">
+            <div className="mb-2 md:text-3xl text-xl font-black">
               Govt. Gournadi College & University
             </div>
-            <p className="text-xl ">Course Name: HSC (Science)</p>
+            <p className="md:text-xl text-base ">Course Name: HSC (Science)</p>
           </div>
           <hr />
         </li>
@@ -283,10 +283,10 @@ const Education = () => {
           </div>
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono text-2xl italic ">2012 - 2014</time>
-            <div className="mb-2s text-3xl font-black">
+            <div className="mb-2 md:text-3xl text-xl font-black">
               Govt. Gournadi Pailot High School
             </div>
-            <p className="text-xl ">Course Name: HSC (Science)</p>
+            <p className="md:text-xl text-base ">Course Name: SSC (Science)</p>
           </div>
         </li>
       </ul>

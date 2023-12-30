@@ -1,6 +1,9 @@
 import Divider from "../../component/Share/Divider";
 import SectionTitle from "../../component/Share/SectionTitle";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+AOS.init();
 const ContactMe = () => {
   return (
     <div id="contactme">
@@ -8,7 +11,11 @@ const ContactMe = () => {
       <Divider></Divider>
       <div className="contactMe  bg-[#000]  ">
         <div className="pt-32 pb-10 px-5">
-          <div className="  mx-auto  md:w-3/4 w-full rounded-xl shadow-2xl bg-[#5055575e]">
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+            className="  mx-auto  md:w-3/4 w-full rounded-xl shadow-2xl bg-[#5055575e]"
+          >
             <h2></h2>
             <form className="card-body">
               <div className="form-control">

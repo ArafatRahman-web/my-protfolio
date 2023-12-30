@@ -6,6 +6,11 @@ import carImg from "../../assets/project/home/car.png";
 import foodImg from "../../assets/project/home/food.png";
 // import OpenModal from "../../component/OpenModal/OpenModal";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const Projects = () => {
   return (
     <div id="projects" className="md:px-20 px-5 mb-10">
@@ -13,7 +18,10 @@ const Projects = () => {
         <SectionTitle title="PROJECTS"></SectionTitle>
         <Divider></Divider>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div
+        data-aos="fade-up"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+      >
         <ProjectCard
           // htmlFor="my_modal_6"
           img={homeImg}

@@ -9,15 +9,23 @@ import tailwindImg from "../../../assets/skill/tailwind.png";
 import boostrapImg from "../../../assets/skill/boostrap.png";
 import express from "../../../assets/skill/express.png";
 import nodeImg from "../../../assets/skill/node.png";
-
+import { MdCloudDownload } from "react-icons/md";
 import FloatingIcon from "../../../component/Share/FloatingIcon/FloatingIcon";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const Banner = () => {
   return (
     <div className="bg-center bg-covers  bg-no-repeat border-none relative ">
       <div className="bg-[#0000008a] text-center text-neutral-content ">
         <div className="z-50 flex md:p-16 p-5 gap-5 items-center sm:flex-row flex-col justify-between">
-          <div className="md:w-1/2 w-full flex items-center sm:order-1 order-2">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            className="md:w-1/2 w-full flex items-center sm:order-1 order-2"
+          >
             <div>
               <h1
                 style={{ textShadow: "2px 4px 15px rgba(245,245,245,0.50)" }}
@@ -38,13 +46,17 @@ const Banner = () => {
                 Email: abedinwahid9@gmail.com
               </p>
               <a href={resumePdf} download>
-                <button className="btn border-none bg-BtnColor text-primaryColor hover:text-textColor hover:bg-primaryColor font-bold md:text-lg text-sm">
-                  Download Resume
+                <button className="btn border-none bg-BtnColor text-primaryColor hover:text-textColor hover:bg-primaryColor font-extrabold md:text-xl text-sm">
+                  Resume <MdCloudDownload className="text-3xl font-black" />
                 </button>
               </a>
             </div>
           </div>
-          <div className="md:w-1/2 w-full flex justify-center sm:order-2 order-1">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            className="md:w-1/2 w-full flex justify-center sm:order-2 order-1"
+          >
             <div className="w-1/2">
               <img
                 style={{ borderRadius: " 0% 0% 48% 52% / 25% 30% 25% 24%" }}

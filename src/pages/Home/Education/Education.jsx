@@ -1,5 +1,9 @@
 import Divider from "../../../component/Share/Divider";
 import SectionTitle from "../../../component/Share/SectionTitle";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const Education = () => {
   return (
@@ -8,7 +12,10 @@ const Education = () => {
         <SectionTitle title="EDUCATIONS"></SectionTitle>
         <Divider></Divider>
       </div>
-      <ul className="timeline px-5 timeline-snap-icon max-md:timeline-compact timeline-vertical">
+      <ul
+        data-aos="fade-up"
+        className="timeline px-5 timeline-snap-icon max-md:timeline-compact timeline-vertical"
+      >
         <li>
           <div className="timeline-middle">
             <div
@@ -93,7 +100,7 @@ const Education = () => {
               </svg>
             </div>
           </div>
-          <div className="timeline-start md:text-end mb-10">
+          <div className="timeline-start md:text-end ">
             <time className="font-mono text-2xl italic ">2019 - 2022</time>
             <div className="mb-2 md:text-3xl text-xl font-black">
               Govt. Gournadi College & University

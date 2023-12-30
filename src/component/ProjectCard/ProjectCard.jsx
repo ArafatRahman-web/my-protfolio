@@ -1,8 +1,16 @@
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const ProjectCard = ({ img, name, htmlFor, liveLink, codeLink }) => {
   return (
-    <div className="card cardMain relative rounded-2xl overflow-hidden h-[300px]  glass">
+    <div
+      data-aos="flip-right"
+      data-aos-duration="2000"
+      className="card cardMain relative rounded-2xl overflow-hidden h-[300px]  glass"
+    >
       <img className="h-full object-fit w-full" src={img} alt="car!" />
 
       <div className="displayOn flex flex-col w-full h-full items-center bg-[#7fe4c19a] justify-center text-center  absolute">

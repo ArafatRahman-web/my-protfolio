@@ -1,4 +1,8 @@
 import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const ScrollToTop = () => {
   useEffect(() => {
@@ -10,6 +14,9 @@ const ScrollToTop = () => {
     <div>
       {/* 👇️ scroll to top on button click */}
       <button
+        data-aos="fade-down"
+        className="tooltip tooltip-primary"
+        data-tip="Scroll Top"
         onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }}
@@ -26,8 +33,8 @@ const ScrollToTop = () => {
         }}
       >
         <svg
-          width="60"
-          height="60"
+          width="40"
+          height="40"
           viewBox="0 0 508 512"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

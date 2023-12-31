@@ -59,8 +59,7 @@ const Banner = () => {
             <div className="w-3/4">
               <img
                 style={{
-                  filter: "drop-shadow(rgb(255, 250, 250) -1px 0px 5px)",
-                  borderRadius: "65% 0% 37% 94% / 82% 21% 27% 24%",
+                  filter: "drop-shadow(rgb(255, 250, 250) -1px 0px 10px)",
                 }}
                 // style={{ borderRadius: " 0% 0% 48% 52% / 25% 30% 25% 24%" }}
                 src={profileImg}

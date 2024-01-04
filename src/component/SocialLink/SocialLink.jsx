@@ -12,7 +12,7 @@ const SocialLink = () => {
       <Link target="_blank" to="https://www.linkedin.com/in/abedinwahid">
         <img width={30} height={30} src={linkedin} alt="linkedin" />
       </Link>
-      <Link target="_blank" to="https://wa.me/01716893200">
+      <Link target="_blank" to="https://wa.me/+8801716893200">
         <img width={30} height={30} src={whatsapp} alt="whatsapp" />
       </Link>
     </div>

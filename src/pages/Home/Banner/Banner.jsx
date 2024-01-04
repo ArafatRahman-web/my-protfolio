@@ -71,10 +71,11 @@ const Banner = () => {
         <div className="absolute  flex flex-col justify-evenly w-full h-full top-0 -z-10">
           {/* 1st row */}
           <div className="flex justify-evenly gap-20">
-            <div>
+            <div className="logo">
               <FloatingIcon
                 style="md:w-20 md:h-20 w-10 h-10"
                 img={reactImg}
+                react="react"
               ></FloatingIcon>
             </div>
             <div></div> <div></div>

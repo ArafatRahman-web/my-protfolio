@@ -1,8 +1,9 @@
 import styles from "./floating.module.css";
 
-const FloatingIcon = ({ img, style }) => {
+const FloatingIcon = ({ react, img, style }) => {
+  console.log(img);
   return (
-    <div className={styles.floating}>
+    <div className={react ? "" : styles.floating}>
       <img className={style} src={img} alt="" />
     </div>
   );

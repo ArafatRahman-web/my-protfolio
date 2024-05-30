@@ -6,13 +6,13 @@ import whatsapp from "../../assets/social/whatsapp.png";
 const SocialLink = () => {
   return (
     <div className=" fixed flex px-2 py-3 rounded-full flex-col gap-3 z-50  top-1/2 left-0 bg-BtnColor">
-      <Link target="_blank" to="https://github.com/abedinwahid9">
+      <Link target="_blank" to="https://github.com/ArafatRahman-web">
         <img width={30} height={30} src={github} alt="github" />
       </Link>
-      <Link target="_blank" to="https://www.linkedin.com/in/abedinwahid">
+      <Link target="_blank" to="https://www.linkedin.com/in/arafat-rahman-b80132310/">
         <img width={30} height={30} src={linkedin} alt="linkedin" />
       </Link>
-      <Link target="_blank" to="https://wa.me/+8801716893200">
+      <Link target="_blank" to="https://wa.me/+8801738509534">
         <img width={30} height={30} src={whatsapp} alt="whatsapp" />
       </Link>
     </div>

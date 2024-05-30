@@ -39,8 +39,8 @@ const Navbar = () => {
   return (
     <div className="px-5 z-50 justify-between navbar drop-shadow-lg bg-primaryColor relative">
       <div className=" ">
-        <a className=" h-20 w-20 ">
-          <img className="h-full w-full" src={logo} alt="" />
+        <a className="text-2xl text-[#fff] capitalize">
+          arafat's protfolio
         </a>
       </div>
       <div>

@@ -102,13 +102,13 @@ const Education = () => {
           </div>
           <div className="timeline-start md:text-end ">
             <time className="font-mono text-2xl italic  text-textColor">
-              2019 - 2022
+              2016 - 2021
             </time>
             <div className="mb-2 md:text-3xl text-xl font-black text-textColor">
-              Govt. Gournadi College & University
+              University Of Developmentg Alternative
             </div>
             <p className="md:text-xl text-base  text-textColor">
-              Course Name: BA (Degree)
+              Course Name: B.sc In Computer Science Engineering
             </p>
           </div>
           <hr />
@@ -203,7 +203,7 @@ const Education = () => {
               2014 - 2016
             </time>
             <div className="mb-2 md:text-3xl text-xl font-black text-textColor">
-              Govt. Gournadi College & University
+              Mahilara Degree College
             </div>
             <p className="md:text-xl text-base  text-textColor">
               Course Name: HSC (Science)
@@ -301,7 +301,7 @@ const Education = () => {
               2012 - 2014
             </time>
             <div className="mb-2 md:text-3xl text-xl font-black text-textColor">
-              Govt. Gournadi Pailot High School
+              Palordi Model School & College
             </div>
             <p className="md:text-xl text-base  text-textColor">
               Course Name: SSC (Science)

@@ -1,4 +1,4 @@
-import profileImg from "../../../assets/dp.png";
+import profileImg from "../../../assets/db.jpeg";
 import resumePdf from "../../../../public/abedinwahid's_cv.pdf";
 import htmlImg from "../../../assets/skill/html.png";
 import cssImg from "../../../assets/skill/css.png";
@@ -21,8 +21,8 @@ const Banner = () => {
       <div className="bg-[#0000008a] text-center text-neutral-content ">
         <div className="z-50 flex md:p-16 p-5 gap-5 items-center sm:flex-row flex-col justify-between">
           <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
+            // data-aos="fade-right"
+            // data-aos-duration="2000"
             className="md:w-1/2 w-full flex items-center sm:order-1 order-2"
           >
             <div>
@@ -30,7 +30,7 @@ const Banner = () => {
                 style={{ textShadow: "2px 4px 15px rgba(245,245,245,0.50)" }}
                 className="mb-5 md:text-5xl text-3xl font-bold drop-shadow-lg "
               >
-                Abedin Wahid
+                Arafat Rahman
               </h1>
               <p
                 style={{ textShadow: "2px 4px 15px rgba(245,245,245,0.50)" }}
@@ -42,7 +42,7 @@ const Banner = () => {
                 style={{ textShadow: "2px 4px 15px rgba(245,245,245,0.50)" }}
                 className="md:text-xl text-base font-bold mb-5"
               >
-                Email: abedinwahid9@gmail.com
+                Email: arafatrahaman257@gmail.com
               </p>
               <a href={resumePdf} download>
                 <button className="btn border-none bg-BtnColor text-primaryColor hover:text-textColor hover:bg-primaryColor font-extrabold md:text-xl text-sm">
@@ -52,8 +52,8 @@ const Banner = () => {
             </div>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="2000"
+            // data-aos="fade-left"
+            // data-aos-duration="2000"
             className="md:w-1/2 w-full flex justify-center sm:order-2 order-1"
           >
             <div className="w-3/4">
